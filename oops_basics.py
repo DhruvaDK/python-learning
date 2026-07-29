@@ -1,3 +1,44 @@
+
+
+# ## recalled from old learning
+# #
+# # class Hero:
+# #     def __init__(self):
+# #         self.name="yash"
+# #         self.age=45
+# #         self.address="hassan"
+# #     def act(self):
+# #         print("he is a actor")
+# #     def ranking(self):
+# #         print("he is number 1 in India")
+# # f1=Hero()
+# # print(f1.name)
+# # print(f1.age)
+# # print(f1.address)
+# # f1.act()
+# # f1.ranking()
+
+# # Learn this today
+# class Engineer:
+#     def __init__(self, name, age, salary):
+#         self.name = name
+#         self.age = age
+#         self.salary = salary
+
+
+
+#     def get_raise(self, percent):
+#         self.salary = self.salary * (1 + percent/100)
+#         return self.salary
+# f1=Engineer()
+# # Practice using it
+# dhruva = Engineer("Dhruva", 23, 7)
+# f1.get_raise("Dhruva", 23, 7)
+# dhruva.get_raise(400)  # going from 7 to 40 LPA 😄
+# print(dhruva)
+
+
+
 ## class and objects
 # class student:
 #     def __init__(self):
