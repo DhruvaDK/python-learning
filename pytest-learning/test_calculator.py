@@ -37,3 +37,8 @@ def test_something(engineer_data):
 def test_salary_fix(sample_salary):
     result=bonus(sample_salary,5)
     assert result == 1250
+
+def test_negative_salary():
+    import pytest
+    with pytest.raises(ValueError):
+        bonus(-20000,5)
